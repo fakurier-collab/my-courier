@@ -1,0 +1,38 @@
+{
+  "adminPassword": "admin123",
+  "rates": {
+    "smallvan": {
+      "name": "Small Van",
+      "base": 45.0,
+      "perMile": 1.55,
+      "minPrice": 45.0,
+      "specs": "max 1.0 x 1.2 x 1.0 m, up to 350 Kg"
+    },
+    "swb": {
+      "name": "SWB Van",
+      "base": 55.0,
+      "perMile": 1.75,
+      "minPrice": 55.0,
+      "specs": "max 2.2 x 1.2 x 1.2 m, up to 800 Kg"
+    },
+    "lwb": {
+      "name": "LWB Van",
+      "base": 72.0,
+      "perMile": 2.15,
+      "minPrice": 72.0,
+      "specs": "max 4.0 x 1.3 x 1.8 m, up to 1000 Kg"
+    },
+    "luton": {
+      "name": "Luton Van",
+      "base": 90.0,
+      "perMile": 2.50,
+      "minPrice": 90.0,
+      "specs": "max 4.0 x 2.0 x 1.95 m, up to 1000 Kg"
+    }
+  },
+  "surcharges": {
+    "asapMultiplier": 1.15,
+    "todayMultiplier": 1.08,
+    "vatRate": 0.20
+  }
+}
